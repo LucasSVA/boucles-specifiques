@@ -10,24 +10,97 @@
 
 // ---- ex 2
 
-const longNames = [
+// const longNames = [
+//     {
+//         firstName: "Jane",
+//         lastName: "Doe"
+//     },
+//     {
+//         firstName: "John",
+//         lastName: "Smith"
+//     }
+// ]
+
+// let shortName = longNames.map((element) => {
+
+
+
+//     console.log(element.firstName);
+//     return { name: `${element.firstName} ${element.lastName}` }
+
+
+// })
+// console.log(shortName);
+
+
+// ---- ex -3
+
+// const array = [1, "toto", 34, "Javascript", 8]
+
+// const numbers = array.filter((number) => {
+
+
+//     return number > 0
+
+// })
+// console.log(numbers);
+
+
+
+
+
+
+// ---- ex 4
+
+
+// let numbers = [1, 2, 3, 4, 5, 6, 7, 8]
+
+// let even = numbers.filter((number) => {
+
+//     return number % 2 === 0
+// })
+
+// console.log(even);
+
+
+// ---- ex 5
+
+const cakes = [
     {
-        firstName: "Jane",
-        lastName: "Doe"
+        name: "cake",
+        flavor: "vanilla",
+        status: "available"
     },
     {
-        firstName: "John",
-        lastName: "Smith"
-    }
+        name: "brownie",
+        flavor: "chocolate",
+        status: "available"
+    },
+    {
+        name: "pie",
+        flavor: "strawberry",
+        status: "available"
+    },
+    {
+        name: "muffin",
+        flavor: "pistachio",
+        status: "available"
+    },
+    {
+        name: "donut",
+        flavor: "chocolate",
+        status: "available"
+    },
 ]
 
-let shortName = longNames.map((element) => {
+const cakesChocilat = cakes.filter((element) => {
+
+    return element.flavor === "chocolate"
+})
 
 
-
-    console.log(element.firstName);
-    return { name: `${element.firstName} ${element.lastName}` }
-
+cakesChocilat.map((element) => {
+    element.status = "sold out"
 
 })
-console.log(shortName);
+console.log(cakesChocilat);
