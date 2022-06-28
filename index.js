@@ -65,42 +65,86 @@
 
 // ---- ex 5
 
-const cakes = [
-    {
-        name: "cake",
-        flavor: "vanilla",
-        status: "available"
-    },
-    {
-        name: "brownie",
-        flavor: "chocolate",
-        status: "available"
-    },
-    {
-        name: "pie",
-        flavor: "strawberry",
-        status: "available"
-    },
-    {
-        name: "muffin",
-        flavor: "pistachio",
-        status: "available"
-    },
-    {
-        name: "donut",
-        flavor: "chocolate",
-        status: "available"
-    },
-]
+// const cakes = [
+//     {
+//         name: "cake",
+//         flavor: "vanilla",
+//         status: "available"
+//     },
+//     {
+//         name: "brownie",
+//         flavor: "chocolate",
+//         status: "available"
+//     },
+//     {
+//         name: "pie",
+//         flavor: "strawberry",
+//         status: "available"
+//     },
+//     {
+//         name: "muffin",
+//         flavor: "pistachio",
+//         status: "available"
+//     },
+//     {
+//         name: "donut",
+//         flavor: "chocolate",
+//         status: "available"
+//     },
+// ]
 
-const cakesChocilat = cakes.filter((element) => {
+// const cakesChocilat = cakes.filter((element) => {
 
-    return element.flavor === "chocolate"
-})
+//     return element.flavor === "chocolate"
+// })
 
 
-cakesChocilat.map((element) => {
-    element.status = "sold out"
+// cakesChocilat.map((element) => {
+//     element.status = "sold out"
 
-})
-console.log(cakesChocilat);
+//     return element
+// })
+
+
+// console.log(cakesChocilat);
+
+
+// ---- ex 6
+
+// const cakes = [
+//     {
+//         name: "cake",
+//         flavor: "vanilla",
+//         status: "available"
+//     },
+//     {
+//         name: "brownie",
+//         flavor: "chocolate",
+//         status: "available"
+//     },
+//     {
+//         name: "pie",
+//         flavor: "strawberry",
+//         status: "available"
+//     },
+//     {
+//         name: "muffin",
+//         flavor: "pistachio",
+//         status: "available"
+//     },
+//     {
+//         name: "donut",
+//         flavor: "chocolate",
+//         status: "available"
+//     },
+// ]
+
+
+// const pie = cakes.find((element) => {
+
+
+//     return element.name === "pie"
+
+// })
+
+// console.log(pie);
