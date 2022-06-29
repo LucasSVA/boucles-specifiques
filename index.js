@@ -1,8 +1,8 @@
 //  ---- ex 1
 
-// let array = [1, 2, 3, 4, 5]
+// const array = [1, 2, 3, 4, 5]
 
-// let double = array.map((array) => {
+// const double = array.map((array) => {
 //     return array * 2
 // })
 // console.log(double);
@@ -21,7 +21,7 @@
 //     }
 // ]
 
-// let shortName = longNames.map((element) => {
+// const shortName = longNames.map((element) => {
 
 
 
@@ -35,12 +35,14 @@
 
 // ---- ex -3
 
-// const array = [1, "toto", 34, "Javascript", 8]
-
-// const numbers = array.filter((number) => {
+//const elements = [1, "toto", 34, "Javascript", 8]
 
 
-//     return number > 0
+
+// const numbers = elements.filter((element) => {
+
+
+//     return typeof element === "number"
 
 // })
 // console.log(numbers);
@@ -93,20 +95,20 @@
 //     },
 // ]
 
-// const cakesChocilat = cakes.filter((element) => {
+// const cakesChocolate = cakes.filter((element) => {
 
 //     return element.flavor === "chocolate"
 // })
 
 
-// cakesChocilat.map((element) => {
+// cakesChocolate.map((element) => {
 //     element.status = "sold out"
 
 //     return element
 // })
 
 
-// console.log(cakesChocilat);
+// console.log(cakesChocolate);
 
 
 // ---- ex 6
@@ -150,7 +152,7 @@
 // console.log(pie);
 
 
-// ---- ex - 7 
+// ---- ex - 7
 
 
 // const array = [1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -160,8 +162,44 @@
 //  array.forEach((element) => {
 
 //  result *= element
-   
+
 
 //  })
 
 // console.log(result);
+
+
+
+ 
+// ----- ex 8    je l'ai teminé avec "correction"
+
+
+//const length = [1,2,3,4,5,6,7,8]
+
+
+
+// length.forEach((line, i) => {
+//     let stringLine = ""
+
+//     length.forEach((square, j )=>{
+//       if ((i + j) % 2 === 0) {
+//         stringLine = stringLine + "[ ]"
+        
+//       }else{
+//         stringLine = stringLine + "[X]"
+//       }
+//     })
+//     console.log(stringLine);
+// });
+
+
+
+
+
+
+
+
+
+
+
+
